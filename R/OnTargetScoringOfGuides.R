@@ -1,7 +1,6 @@
 
-##### ----- CREATE FILES FOR ON-TARGET SCORING
-# need 30 bp seq described below, compared to 20bp seq
-### do this manually, step-by-step
+############### CREATE FILES FOR ON-TARGET SCORING ###############
+# To use Doench 2014 algorithm, need 30 bp seq described below, compared to 20bp seq
 
 # get seq for region of interest
 y = getSeq(Hsapiens, chr, start, end)
